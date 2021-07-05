@@ -1,0 +1,54 @@
+{
+  "name": "touchdownpmbackend",
+  "version": "1.0.1",
+  "description": "Backend of Touchdown.PM",
+  "keywords": [
+    "scrum",
+    "agile",
+    "lean",
+    "project management",
+    "backend",
+    "mongodb"
+  ],
+  "author": "Hans-Peter Görg",
+  "license": "MIT",
+  "scripts": {
+    "setup-db": "node src/backend/db/runDBSetup.js",
+    "setup-db-fake-data": "node src/backend/db/runDBSetupWithFakeData.js",
+    "server-http": "node src/backend/restserver/runRestServerHttp",
+    "server-https": "node src/backend/restserver/runRestServerHttps",
+    "import-members": "node src/backend/db/runDBImportMembers.js",
+    "jsdoc": "./node_modules/.bin/jsdoc --configure ./jsdoc.json --recurse --destination ./docs"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@shelf/jest-mongodb": "^1.1.5",
+    "@types/jest": "^25.1.4",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "faker": "^4.1.0",
+    "http-graceful-shutdown": "^2.3.2",
+    "i18n": "^0.10.0",
+    "inquirer": "^7.1.0",
+    "jsdoc": "^3.6.4",
+    "jsonschema": "^1.2.6",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-pino-logger": "^2.1.3",
+    "koa-router": "^8.0.8",
+    "lodash": "^4.17.20",
+    "moment": "^2.24.0",
+    "mongodb": "^3.6.2",
+    "pino": "^6.2.0",
+    "pino-pretty": "^4.0.0",
+    "shortid": "^2.2.15",
+    "validate.js": "^0.13.1",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-destructuring": "^7.9.5"
+  }
+}

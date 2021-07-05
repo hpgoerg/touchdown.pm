@@ -1,0 +1,68 @@
+{
+  "name": "touchdownpmfrontend",
+  "version": "1.0.1",
+  "description": "Frontend of Touchdown.PM",
+  "keywords": [
+    "scrum",
+    "agile",
+    "lean",
+    "project management",
+    "frontend",
+    "React"
+  ],
+  "author": "Hans-Peter Görg",
+  "license": "MIT",
+  "scripts": {
+    "start": "HTTPS=false react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "jsdoc": "./node_modules/.bin/jsdoc --configure ./jsdoc.json --recurse --destination ./docs"
+  },
+  "dependencies": {
+    "get-user-locale": "^1.4.0",
+    "grommet": "^2.15.0",
+    "grommet-controls": "^3.0.1",
+    "grommet-icons": "^4.4.0",
+    "i18next": "^19.4.5",
+    "i18next-browser-languagedetector": "^4.3.0",
+    "jsdoc": "^3.6.4",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-i18next": "^11.5.1",
+    "react-pdf": "^5.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.3.0",
+    "react-star-ratings": "^2.3.0",
+    "react-tooltip-lite": "^1.12.0",
+    "react-uuid": "^1.0.2",
+    "styled-components": "^4.4.0",
+    "typescript": "^3.9.7"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-destructuring": "^7.10.4"
+  }
+}
