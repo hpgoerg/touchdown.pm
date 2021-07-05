@@ -2,4 +2,5 @@
 .idea/misc.xml
 .idea/workspace.xml
 .idea/usage.statistics.xml
-,idea/shelf
+.idea/shelf
+.DS_Store
