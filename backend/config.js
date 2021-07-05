@@ -34,5 +34,8 @@ exports.SALT_ROUNDS = 1;
  */
 exports.PASSWORD_REGEX = '^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{6,})';
 
+//used for fake data admin user dan.demo@scrummers.com
+exports.PASSWORD_VALID_FOR_TEST = 'Touchdown.PM#20';
+
 //never change - could result in warnings
 exports.EVENT_MAX_LISTENERS_FOR_TEST = 27;
