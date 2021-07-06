@@ -58,7 +58,7 @@ With fake data imported you log in with **dan.demo@scrummers.com** as Email addr
 
 After successful login you can start the application parts (like   *Sprint*) from toolbar menu **Subject**.
 
-##  Touchdown.PM for HTTPS
+##  Touchdown.PM with HTTPS
 
 *Hint: HTTPS was tested with a localhost certificate. You may eventually need to do more steps than documented in the following if using a certificate from a certificate authority*.
 
