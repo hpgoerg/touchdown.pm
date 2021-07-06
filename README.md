@@ -18,12 +18,12 @@ The **frontend** is a *React* web application.
 
 ### general installation steps
 
-- install **node.js**\
+- install **node.js**
 
 - install MongoDB\
 (the application was tested with MongoDB Community Edit, version 4.2.3)
 - in **./backend/config.js** adopt the params
-```PROD_DB_URL``` and ```DEFAULT_DATABASE_NAME``` to your database configuration values\
+```PROD_DB_URL``` and ```DEFAULT_DATABASE_NAME``` to your database configuration values
 - in **./frontend/src/config.js** set param ```REST_SERVER_PORT``` to the value of param ```REST_SERVER_PORT_FOR_PROD``` from ./backend/config.js (default: _3001_) and adopt ```REST_SERVER``` to the address of your server.
 - from terminal at directory **./backend** execute command\
 ```$ npm install```
