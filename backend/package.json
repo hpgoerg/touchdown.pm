@@ -22,8 +22,6 @@
   },
   "dependencies": {
     "@koa/cors": "^3.1.0",
-    "@shelf/jest-mongodb": "^1.1.5",
-    "@types/jest": "^25.1.4",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "faker": "^4.1.0",
@@ -47,8 +45,5 @@
     "shortid": "^2.2.15",
     "validate.js": "^0.13.1",
     "validator": "^13.0.0"
-  },
-  "devDependencies": {
-    "@babel/plugin-transform-destructuring": "^7.9.5"
   }
 }
